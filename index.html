@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Guess Game</title>
+  <link rel="stylesheet" href="assets/css/style.css">
+</head>
+
+<body>
+  <main>
+    <h1>in how many rounds you think you can guess the number?</h1>
+    <form action="" id="form">
+      <input type="radio" name="guessNumber" id="vier" checked onchange="customInput()">
+      <label for="vier">4</label>
+      <input type="radio" name="guessNumber" id="fünf" onchange="customInput()">
+      <label for="fünf">5</label><br>
+      <input type="radio" name="guessNumber" id="sechs" onchange="customInput()">
+      <label for="sechs">6</label>
+      <input type="radio" name="guessNumber" id="custom" onchange="customInput()">
+      <label for=" custom">custom</label><br>
+      <input type="number" name="anzahl" id="anzahl">
+    </form>
+    <h2 id="h2"><span id="versuch"></span>/<span id="versuchLimit"></span></h2>
+  </main>
+  <section>
+    <input type="number" name="number" id="number">
+    <input type="button" value="guess" onclick="guess()">
+  </section>
+  <section id="result">
+  </section>
+
+  <script src="assets/js/main.js"></script>
+</body>
+
+</html>
