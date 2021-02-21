@@ -18,17 +18,7 @@ h1{
   margin-top: 0;
   text-align: center;
 }
-/* input[type=radio]{
-  width: 40%;
-}
-input[type=radio] label{
-  display: inline-block;
-  width: 45%;
-} */
-
 #anzahl {
-  /* display: block;
-  margin: 20px auto; */
   margin-top: 20px;
   display: none;
 }
@@ -38,18 +28,15 @@ h2 {
   margin: 10px auto;
   display: none;
 }
-
 section {
   margin-top: 50px;
   padding: 30px;
   width: 500px;
   border: 2px solid #fff;
 }
-
 #result {
   display: none;
 }
-
 section input:nth-of-type(1){
   display: block;
   font-size: 80px;
